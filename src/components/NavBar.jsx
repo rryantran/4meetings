@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 
 const NavBarContainer = styled.div`
   display: flex;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-  background-color: #f2f2f2;
-  align-items: center;
   justify-content: space-between;
-  padding: 0 1rem;
-  height: 4rem;
   width: 100%;
+  height: 4rem;
+  padding: 0 2rem;
+  align-items: center;
+  background-color: #f2f2f2;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
 `;
 
 const StyledLink = styled(Link)`
