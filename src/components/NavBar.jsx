@@ -15,11 +15,15 @@ const NavBarContainer = styled.div`
 
 const StyledLink = styled(Link)`
   font-family: Roboto, sans-serif;
+  font-weight: 900;
   color: black;
   text-decoration: none;
 `;
 
-const LinkContainer = styled.div``;
+const LinkContainer = styled.div`
+  display: flex;
+  gap: 2rem;
+`;
 
 const NavBar = () => {
   return (
